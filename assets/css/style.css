@@ -1,0 +1,124 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    width: 600px;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.imgFullWidth {
+    width: 100%;
+    height: auto;
+    /* margin-bottom: 20px; */
+}
+
+.imgContainer {
+    text-align: center;
+}
+
+.button {
+    background-color: #ff0000;
+    border: 1px solid #ffffff00;
+    color: #ffffff;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    padding: 10px 35px;
+    border-radius: 30px;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #df0101;
+}
+.linkContainer, .backBtn {
+    margin: 40px 0px 50px 0px;
+    text-align: center;
+}
+.backBtn a {
+    background: radial-gradient(#2fa3a5 5%, #1a8184 90%);
+    border: 1px solid #ffffff00;
+    color: #ffffff;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    padding: 10px 35px;
+    border-radius: 30px;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+p {
+    font-size: clamp(1rem, 3vw, 1.4rem);
+    margin-bottom: 20px;
+    padding: 0px 1.5rem;
+}
+.textContainer {
+    width: 100%;
+    padding: 20px 0px;
+    background: radial-gradient(#2fa3a5 5%, #1a8184 90%);
+    color: white;
+    font-size: clamp(1.3rem, 3.4vw, 1.5rem);
+    margin: 30px 0px;
+    text-align: center;
+}
+.fontSize65pt {
+    font-size: clamp(1.3rem, 3.4vw, 2.8rem);
+}
+.workMap {
+    background-color: red;
+}
+.footer {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 10%;
+    height: 30px;
+    /* display: inline-block; */
+    width: 100%;background: radial-gradient(#2fa3a5 5%, #1a8184 90%); 
+    padding: 12px 15px;
+}
+.unsubscribe {
+    color: white; text-decoration: none; 
+    font-size: 18px;
+    text-align: right;
+    float: right;
+}
+.email {
+    color: white; text-decoration: none; 
+    margin-top: 5px;
+    text-align: left;
+} 
+
+footer {
+    background-color: #1a8184;
+    padding: 15px 20px;
+    margin-top: 50px;
+}
+.bookBtnContainer {
+    position: relative;
+}
+.bookBtn {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 300px;
+    right: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .bookBtn {
+        width: 300px;
+        height: auto;
+        position: absolute;
+        top: 75%;
+        right: 12%;
+    }
+}
+
